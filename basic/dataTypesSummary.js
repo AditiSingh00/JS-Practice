@@ -23,9 +23,29 @@ const myFunction=function(){
     console.log("hello");
 }
 
-console.log(typeof bigNumber);
-console.log(typeof outsideTemp);
-console.log(typeof scoreValue);
-console.log(typeof myFunction);
-console.log(typeof nam);
+// console.log(typeof bigNumber);
+// console.log(typeof outsideTemp);
+// console.log(typeof scoreValue);
+// console.log(typeof myFunction);
+// console.log(typeof nam);
+
 // null = object,
+
+//********************************************/
+//Stack (Primitive), Heap(Non-Primitive)
+
+let myYt = "codewith..";
+let insta =myYt ;
+insta ="artt";
+console.log(myYt);
+console.log(insta);
+
+let user1 = {
+    mail: "abc@gmail.com",
+    id: "user1",
+}
+let user2=user1;
+
+user2.mail="ann@gmail.com";
+console.log(user1.mail);
+console.log(user2.mail);
