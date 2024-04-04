@@ -38,7 +38,9 @@ newUser.greeting1= function(){
 // console.log(newUser.greeting1());
 
 
+
 //**************************More Object************//
+
 
 // const tinderUser =new Object() // singleton object
 const tinderUser={}  //Non-Sigleton Object
@@ -87,11 +89,26 @@ const users=[
         name:"addddi",
     }
 ]
-users[1].name
-console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// users[1].name
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty("isLoggedIn"));
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn"));
+
+
+/*********************More**************************/
+//De-Structure 
+
+const course ={
+    name:"js",
+    pice: 99,
+    teach:"Adii",
+}
+const {teach}= course
+const {teach:teacher}= course //de-strucure
+// console.log(teach);
+// console.log(teacher);
+
 
