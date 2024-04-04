@@ -24,10 +24,11 @@ const myArr2=new Array(1,2,3)
 
 console.log("A",myArr);
 const myn1=myArr.slice(1,3)
-
+//In 'slice()', the first argument sets the start index, and the second sets the end index for slicing. 
 console.log(myn1);
 console.log("B",myArr);
 
 const myn2=myArr.splice(1,3) 
+//In 'splice()', the first argument is the start index for removing/adding elements, and the second specifies the number of elements to remove. 
 console.log("C",myArr);
 console.log(myn2);
