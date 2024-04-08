@@ -12,5 +12,11 @@ function addTwoNumbers(num1,num2){  // (num1,num2) >>parameters
 }
 // addTwoNumbers(3,5) //arguements
 const result = addTwoNumbers(3,5) //arguements
-console.log(result);
+// console.log(result);
+
+function loginUser(user1){
+    return`${user1} just log in`
+}
+console.log(loginUser("hii"));
+// console.log(loginUser());  undefined
 
