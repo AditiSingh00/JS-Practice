@@ -23,5 +23,31 @@ function loginUser(user1 ="Adii"){
     }
     return`${user1} just log in`
 }
-console.log(loginUser("hii"));
+// console.log(loginUser("hii"));
 // console.log(loginUser());  undefined
+
+function calculateCartPrice (val1, val2, ...numm1){  // ...  >rest operator,spread operator
+    return numm1
+}
+// console.log(calculateCartPrice(200, 300, 400));
+
+const uuser ={
+    username: "hii",
+    price: 200,
+}
+
+function handleObject(anyobject){
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+// handleObject(uuser)
+handleObject({
+    username: "adi",
+    price: 350,
+})
+
+const myNewArr=[200, 300, 400]
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+// console.log(returnSecondValue(myNewArr));
+console.log(returnSecondValue([250, 350, 450]));
