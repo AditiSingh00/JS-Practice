@@ -14,21 +14,42 @@ if(true){    //block scopes
 // console.log(c);
 
 
-//******************nested scopes********/
+//******************nested scopes**************************/
 
 function one (){
     const username = "adi"
-
     function two (){
         const website = "yt"
         console.log(username);
     }
-
     // console.log(website);
-
     two( )
-
 }
+// one( )
 
-one( )
+if (true) {
+    const username ="adi"
+    if (username === "adi") {
+        const website = " yt"
+        // console.log(username + website);
+    }
+    // console.log(website);
+}
+// console.log(username);
 
+
+
+//***********interesting*****************/
+
+
+console.log(addOne(5))
+function addOne(num){
+      return num + 1
+}
+// addOne(5)
+
+console.log(addTwo(5))
+const addTwo = function(num){ 
+    return num + 2
+}
+// addTwo(5)
