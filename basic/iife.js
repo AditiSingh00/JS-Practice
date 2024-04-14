@@ -6,10 +6,14 @@
 // chai()
 
 (function chai(){
+    //named iife
     console.log(`DB connected`);
 })() ; // ; important 
 
-
+((name)=>{
+    //simple iife
+    console.log(`hii ${name}`);
+})('adi')
 
 //()()  //1st > function;s defin., 2nd  > execution call
 
